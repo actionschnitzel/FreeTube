@@ -48,7 +48,7 @@ Search Filters:
     View Count: Anzahl der Aufrufe
   Time:
     Time: Zeit
-    Any Time: Jeder Zeitraum
+    Any Time: Gesamter Zeitraum
     Last Hour: Letzte Stunde
     Today: Heute
     This Week: Diese Woche
@@ -63,7 +63,7 @@ Search Filters:
     Movies: Filme
   Duration:
     Duration: Dauer
-    All Durations: Alle Dauern
+    All Durations: Nicht berücksichtigen
     Short (< 4 minutes): Kurz (< 4 Minuten)
     Long (> 20 minutes): Lang (> 20 Minuten)
   # On Search Page
@@ -79,16 +79,16 @@ Subscriptions:
   Subscriptions: Abonnements
   Latest Subscriptions: Neueste Abonnements
   'Your Subscription list is currently empty. Start adding subscriptions to see them here.': Deine
-    Abonnementliste ist aktuell leer. Beginne Abonnements hinzuzufügen, um sie hier
+    Abonnementliste ist aktuell leer. Abonnements hinzuzufügen, um sie hier
     zu sehen.
-  'Getting Subscriptions.  Please wait.': Rufe Abonnements ab. Bitte warten.
+  'Getting Subscriptions.  Please wait.': Lade Abonnements. Bitte warten.
   Refresh Subscriptions: Abonnements aktualisieren
   Getting Subscriptions. Please wait.: Abonnements werden geladen. Bitte warten.
   This profile has a large number of subscriptions. Forcing RSS to avoid rate limiting: Dieses
     Profil hat eine große Anzahl von Abonnements.  RSS zur Vermeidung von Geschwindigkeitsbeschränkungen
     erzwingen
   Load More Videos: Mehr Videos laden
-  Error Channels: Kanäle mit Fehlern
+  Error Channels: Fehlerhafte Kanäle
   Disabled Automatic Fetching: Du hast den automatischen Abruf von Abonnements deaktiviert.
     Aktualisiere die Abonnements, um sie hier zu sehen.
   Empty Channels: Deine abonnierten Kanäle haben derzeit keine Videos.
@@ -121,7 +121,7 @@ History:
   # On History Page
   History: Verlauf
   Watch History: Wiedergabeverlauf
-  Your history list is currently empty.: Dein Verlauf ist aktuell leer.
+  Your history list is currently empty.: Dein Verlauf ist derzeit leer.
   Search bar placeholder: Im Verlauf suchen
   Empty Search Message: Es gibt keine Videos in Ihrem Verlauf, die deiner Suche entsprechen
 Settings:
@@ -141,7 +141,7 @@ Settings:
       Invidious API: Invidious-API
     Video View Type:
       Video View Type: Videoansichtstyp
-      Grid: Gitter
+      Grid: Raster
       List: Liste
     Thumbnail Preference:
       Thumbnail Preference: Einstellung des Vorschaubildes
@@ -149,10 +149,10 @@ Settings:
       Beginning: Anfang
       Middle: Mitte
       End: Ende
-      Hidden: Versteckt
+      Hidden: Ausblenden
     'Invidious Instance (Default is https://invidious.snopyta.org)': Invidious-Instanz
       (Standard ist https://invidious.snopyta.org)
-    Region for Trending: Region für Trends
+    Region for Trending: Trend-Region
         #! List countries
     Check for Latest Blog Posts: Nach aktuellsten Blogeinträgen suchen
     Check for Updates: Nach Aktualisierungen suchen
@@ -171,7 +171,7 @@ Settings:
       No Action: Keine Aktion
       Ask Before Opening Link: Vor dem Öffnen des Links fragen
       Open Link: Link öffnen
-      External Link Handling: Handhabung externer Links
+      External Link Handling: Umgang mit externer Links
   Theme Settings:
     Theme Settings: Farbschema-Einstellungen
     Match Top Bar with Main Color: Obere Leiste an Hauptfarbe anpassen
@@ -291,7 +291,7 @@ Settings:
       Comment Auto Load: Kommentare automatisch laden
   Subscription Settings:
     Subscription Settings: Abonnement-Einstellungen
-    Hide Videos on Watch: Verstecke Videos bei Wiedergabe
+    Hide Videos on Watch: Abgespielte Videos ausblenden
     Subscriptions Export Format:
       Subscriptions Export Format: Abonnement Exportierformat
       #& Freetube
@@ -407,12 +407,12 @@ Settings:
     Hide Channel Subscribers: Kanal-Abonnenten ausblenden
     Hide Comment Likes: Kommentarbewertungen ausblenden
     Hide Video Likes And Dislikes: Videobewertungen ausblenden
-    Hide Video Views: Video-Aufrufe verbergen
+    Hide Video Views: Video-Aufrufe ausblenden
     Distraction Free Settings: Einstellungen für ablenkungsfreien Modus
     Hide Active Subscriptions: Aktive Abonnements ausblenden
     Hide Playlists: Wiedergabelisten ausblenden
     Hide Comments: Kommentare ausblenden
-    Hide Video Description: Videobeschreibung verstecken
+    Hide Video Description: Videobeschreibung ausblenden
     Hide Live Streams: Livestreams ausblenden
     Hide Sharing Actions: Freigabe-Aktionen ausblenden
     Hide Chapters: Kapitel ausblenden
@@ -435,11 +435,11 @@ Settings:
     Hide Subscriptions Videos: Videos der Abonnements ausblenden
     Hide Subscriptions Shorts: Shorts der Abonnements ausblenden
     Hide Channel Releases: Kanalveröffentlichungen ausblenden
-    Hide Subscriptions Live: Live der Abonnements ausblenden
+    Hide Subscriptions Live: Live Steams der Abonnements ausblenden
     Blur Thumbnails: Vorschaubilder unscharf machen
     Hide Profile Pictures in Comments: Profilbilder in den Kommentaren verbergen
   The app needs to restart for changes to take effect. Restart and apply change?: Um
-    die Änderungen anzuwenden muss die Anwendung neustarten. Jetzt neustarten und
+    die Änderungen anzuwenden, muss die Anwendung neustarten. Jetzt neustarten und
     Änderungen aktivieren?
   Proxy Settings:
     Ip: IP-Adresse
@@ -458,7 +458,7 @@ Settings:
     Enable Tor / Proxy: Tor / Proxy aktivieren
     Proxy Settings: Proxy-Einstellungen
   SponsorBlock Settings:
-    Notify when sponsor segment is skipped: Melden, falls ein Sponsorsegment übersprungen
+    Notify when sponsor segment is skipped: Benachrichtigung, falls ein Sponsorsegment übersprungen
       wird
     'SponsorBlock API Url (Default is https://sponsor.ajay.app)': SponsorBlock API
       URL (Standard ist https://sponsor.ajay.app)
@@ -482,14 +482,14 @@ Settings:
       None:
         Name: Keine
   Download Settings:
-    Download Settings: Herunterladen-Einstellungen
+    Download Settings: Download-Einstellungen
     Ask Download Path: Nach dem Herunterladen-Pfad fragen
     Choose Path: Pfad wählen
     Download Behavior: Download-Verhalten
     Download in app: In der Anwendung herunterladen
     Open in web browser: Im Webbrowser öffnen
   Parental Control Settings:
-    Parental Control Settings: Einstellungen der Kindersicherung
+    Parental Control Settings: Jugendschutz-Einstellungen
     Hide Unsubscribe Button: „Abo entfernen“-Schaltfläche ausblenden
     Show Family Friendly Only: Nur familienfreundlich anzeigen
     Hide Search Bar: Suchleiste ausblenden
