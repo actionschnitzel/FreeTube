@@ -100,7 +100,7 @@ Trending:
   Trending: Trends
   Trending Tabs: Trendtabs
   Movies: Filme
-  Gaming: Computerspiele
+  Gaming: Gaming
   Music: Musik
   Default: Standard
 Most Popular: Am beliebtesten
@@ -128,7 +128,7 @@ Settings:
   # On Settings Page
   Settings: Einstellungen
   General Settings:
-    General Settings: Allgemeine Einstellungen
+    General Settings: Allgemein
     Fallback to Non-Preferred Backend on Failure: Falle zu nicht-präferiertem System
       bei Fehlschlag zurück
     Enable Search Suggestions: Suchvorschläge aktivieren
@@ -140,7 +140,7 @@ Settings:
       Local API: Lokale API
       Invidious API: Invidious-API
     Video View Type:
-      Video View Type: Videoansichtstyp
+      Video View Type: Feed-Ansicht
       Grid: Raster
       List: Liste
     Thumbnail Preference:
@@ -173,7 +173,7 @@ Settings:
       Open Link: Link öffnen
       External Link Handling: Umgang mit externer Links
   Theme Settings:
-    Theme Settings: Farbschema-Einstellungen
+    Theme Settings: Farbschema
     Match Top Bar with Main Color: Obere Leiste an Hauptfarbe anpassen
     Base Theme:
       Base Theme: Grundlegendes Farbschema
@@ -232,7 +232,7 @@ Settings:
     Hide Side Bar Labels: Seitenleisten-Beschriftungen ausblenden
     Hide FreeTube Header Logo: FreeTube Titel Logo ausblenden
   Player Settings:
-    Player Settings: Videoabspieler-Einstellungen
+    Player Settings: Abspieleinstellungen
     Force Local Backend for Legacy Formats: Lokales System für Legacy Formate erzwingen
     Remember History: Verlauf speichern
     Play Next Video: Spiele nächstes Video
@@ -290,7 +290,7 @@ Settings:
     Comment Auto Load:
       Comment Auto Load: Kommentare automatisch laden
   Subscription Settings:
-    Subscription Settings: Abonnement-Einstellungen
+    Subscription Settings: Abo-Einstellungen
     Hide Videos on Watch: Abgespielte Videos ausblenden
     Subscriptions Export Format:
       Subscriptions Export Format: Abonnement Exportierformat
@@ -304,7 +304,7 @@ Settings:
     Fetch Feeds from RSS: Abrufen von RSS-Feeds
     Fetch Automatically: Feed automatisch abrufen
   Advanced Settings:
-    Advanced Settings: Erweiterte Einstellungen
+    Advanced Settings: Erweitert
     Enable Debug Mode (Prints data to the console): Aktiviere Debug-Modus (Konsolenausgabe
       des Programmes)
     'Proxy Address (Example: SOCKS5://127.0.0.1:9050 )': 'Proxy-Adresse (Beispiel:
@@ -365,7 +365,7 @@ Settings:
     Invalid history file: Ungültige Verlaufsdatei
     This might take a while, please wait: Dies dauert einen Moment, bitte warten
     Invalid subscriptions file: Ungültige Abonnementdatei
-    One or more subscriptions were unable to be imported: Eine oder mehrere Abonnements
+    One or more subscriptions were unable to be imported: Ein oder mehrere Abonnements
       konnten nicht importiert werden
     All subscriptions and profiles have been successfully imported: Alle Abonnements
       und Profile wurden erfolgreich importiert
@@ -385,7 +385,7 @@ Settings:
     Import Subscriptions: Abonnements importieren
     Select Export Type: Wähle Exporttyp
     Select Import Type: Wähle Importtyp
-    Data Settings: Dateneinstellungen
+    Data Settings: Backup & Wiederherstellen
     Check for Legacy Subscriptions: Auf ältere Abonnements prüfen
     Manage Subscriptions: Abonnements verwalten
     Export Playlists: Wiedergabelisten exportieren
@@ -396,9 +396,9 @@ Settings:
       importiert
     All playlists has been successfully exported: Alle Wiedergabelisten wurden erfolgreich
       exportiert
-    Playlist File: Wiedergabelistendatei
+    Playlist File: Playlist-Datei
     Subscription File: Abonnement-Datei
-    History File: Verlaufsdatei
+    History File: Verlaufs-Datei
   Distraction Free Settings:
     Hide Live Chat: Live-Chat ausblenden
     Hide Popular Videos: Beliebte Videos ausblenden
@@ -408,7 +408,7 @@ Settings:
     Hide Comment Likes: Kommentarbewertungen ausblenden
     Hide Video Likes And Dislikes: Videobewertungen ausblenden
     Hide Video Views: Video-Aufrufe ausblenden
-    Distraction Free Settings: Einstellungen für ablenkungsfreien Modus
+    Distraction Free Settings: Einstellungen für Ablenkungsfreien Modus
     Hide Active Subscriptions: Aktive Abonnements ausblenden
     Hide Playlists: Wiedergabelisten ausblenden
     Hide Comments: Kommentare ausblenden
@@ -446,8 +446,8 @@ Settings:
     Error getting network information. Is your proxy configured properly?: Fehler
       beim Abrufen von Netzwerkinformationen. Ist dein Proxy richtig konfiguriert?
     City: Stadt
-    Region: Region / Bundesland
-    Country: Land / Nation
+    Region: Bundesland
+    Country: Land
     Your Info: Deine Info
     Test Proxy: Proxy testen
     Clicking on Test Proxy will send a request to: In dem du auf Proxy Testen klickst,
@@ -463,7 +463,7 @@ Settings:
     'SponsorBlock API Url (Default is https://sponsor.ajay.app)': SponsorBlock API
       URL (Standard ist https://sponsor.ajay.app)
     Enable SponsorBlock: Aktiviere SponsorBlock
-    SponsorBlock Settings: SponsorBlock-Einstellungen
+    SponsorBlock Settings: SponsorBlock-Verhalten
     Skip Options:
       Skip Option: Option überspringen
       Auto Skip: Automatisch überspringen
@@ -482,14 +482,14 @@ Settings:
       None:
         Name: Keine
   Download Settings:
-    Download Settings: Download-Einstellungen
-    Ask Download Path: Nach dem Herunterladen-Pfad fragen
-    Choose Path: Pfad wählen
+    Download Settings: Downloadverhalten
+    Ask Download Path: Nach dem Downloadverzeichnis fragen
+    Choose Path: Verzeichnis wählen
     Download Behavior: Download-Verhalten
     Download in app: In der Anwendung herunterladen
     Open in web browser: Im Webbrowser öffnen
   Parental Control Settings:
-    Parental Control Settings: Jugendschutz-Einstellungen
+    Parental Control Settings: Jugendschutz
     Hide Unsubscribe Button: „Abo entfernen“-Schaltfläche ausblenden
     Show Family Friendly Only: Nur familienfreundlich anzeigen
     Hide Search Bar: Suchleiste ausblenden
@@ -581,7 +581,7 @@ About:
   Source code: Quellcode
   Discussions: Diskussionen
 Channel:
-  Subscriber: Abonnement
+  Subscriber: Abonnent
   Subscribers: Abonnements
   Subscribe: Abonnieren
   Unsubscribe: Deabonnieren
